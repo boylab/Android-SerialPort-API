@@ -1,0 +1,2 @@
+ninja: Entering directory `F:\YaohuaProject\SerialPort\SerialPort-Google\SerialPort\serialport\.cxx\Debug\l6s1b1b3\arm64-v8a'
+[1/1] Linking C shared library F:\YaohuaProject\SerialPort\SerialPort-Google\SerialPort\serialport\build\intermediates\cxx\Debug\l6s1b1b3\obj\arm64-v8a\libserial_port.so

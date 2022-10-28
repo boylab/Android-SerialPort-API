@@ -1,0 +1,9 @@
+# ninja log v5
+1	260	688572991	CMakeFiles/serial_port.dir/SerialPort.c.o	36065a66a9c9d506
+262	597	688572991	F:/YaohuaProject/SerialPort/SerialPort-Google/SerialPort/serialport/build/intermediates/cxx/Debug/l6s1b1b3/obj/arm64-v8a/libserial_port.so	d481884c07e3811
+0	9	0	clean	74125cced71bda91
+6	193	688638699	CMakeFiles/serial_port.dir/SerialPort.c.o	36065a66a9c9d506
+194	302	688638699	F:/YaohuaProject/SerialPort/SerialPort-Google/SerialPort/serialport/build/intermediates/cxx/Debug/l6s1b1b3/obj/arm64-v8a/libserial_port.so	d481884c07e3811
+4	125	688639316	F:/YaohuaProject/SerialPort/SerialPort-Google/SerialPort/serialport/build/intermediates/cxx/Debug/l6s1b1b3/obj/arm64-v8a/libserial_port.so	d481884c07e3811
+3	164	688639366	F:/YaohuaProject/SerialPort/SerialPort-Google/SerialPort/serialport/build/intermediates/cxx/Debug/l6s1b1b3/obj/arm64-v8a/libserial_port.so	d481884c07e3811
+3	246	688641561	F:/YaohuaProject/SerialPort/SerialPort-Google/SerialPort/serialport/build/intermediates/cxx/Debug/l6s1b1b3/obj/arm64-v8a/libserial_port.so	d481884c07e3811

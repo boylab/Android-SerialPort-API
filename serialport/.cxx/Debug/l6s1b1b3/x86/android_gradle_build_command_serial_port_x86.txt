@@ -1,0 +1,7 @@
+Executable : D:\Android Studio\sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+F:\YaohuaProject\SerialPort\SerialPort-Google\SerialPort\serialport\.cxx\Debug\l6s1b1b3\x86
+serial_port
+jvmArgs : 
+

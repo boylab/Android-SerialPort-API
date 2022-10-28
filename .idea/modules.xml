@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-SerialPort-API.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-SerialPort-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/Android-SerialPort-API.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/Android-SerialPort-API.sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serialport/Android-SerialPort-API.serialport.iml" filepath="$PROJECT_DIR$/.idea/modules/serialport/Android-SerialPort-API.serialport.iml" />
+    </modules>
+  </component>
+</project>
