@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\GitHubLib\boylab\Android-SerialPort-API\serialport\.cxx\RelWithDebInfo\6r1m3u31\x86'
+ninja: no work to do.

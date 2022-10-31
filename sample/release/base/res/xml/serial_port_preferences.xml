@@ -1,0 +1,19 @@
+
+ó
+;
+android*http://schemas.android.com/apk/res/androidPreferenceScreen"K
+*http://schemas.android.com/apk/res/androidtitleSerial port setup(áƒ„*ê
+áListPreference">
+*http://schemas.android.com/apk/res/androidkeyDEVICE(èƒ„"@
+*http://schemas.android.com/apk/res/androidtitleDevice(áƒ„"M
+*http://schemas.android.com/apk/res/android
+persistenttrue"(€„2:@*ç
+ŞListPreference"w
+*http://schemas.android.com/apk/res/androidentries@array/baudrates_name"(²„2 
+€€Œøarray/baudrates_name0"}
+*http://schemas.android.com/apk/res/androidentryValues@array/baudrates_value"(øƒ„2!
+€Œøarray/baudrates_value0"@
+*http://schemas.android.com/apk/res/androidkeyBAUDRATE(èƒ„"M
+*http://schemas.android.com/apk/res/android
+persistenttrue"(€„2:@"C
+*http://schemas.android.com/apk/res/androidtitle	Baud rate(áƒ„

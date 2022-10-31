@@ -1,0 +1,24 @@
+                    Executable : D:\Android Studio\sdk\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HD:\GitHubLib\boylab\Android-SerialPort-API\serialport\src\main\cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=26
+-DANDROID_PLATFORM=android-26
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=D:\Android Studio\sdk\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=D:\Android Studio\sdk\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=D:\Android Studio\sdk\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\Android Studio\sdk\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\GitHubLib\boylab\Android-SerialPort-API\serialport\build\intermediates\cxx\Debug\5ywa2s5n\obj\x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\GitHubLib\boylab\Android-SerialPort-API\serialport\build\intermediates\cxx\Debug\5ywa2s5n\obj\x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-BD:\GitHubLib\boylab\Android-SerialPort-API\serialport\.cxx\Debug\5ywa2s5n\x86_64
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

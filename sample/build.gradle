@@ -13,9 +13,14 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        /**
+         * 1、NDK 17版本以上，不再支持 armeabi,
+         * 2、armeabi-v7a是可以兼容armeabi的，而v7a的CPU支持硬件浮点运算，目前绝大对数设备已经是armeabi-v7a了，所以为了性能上的更优，就不要为了兼容放到armeabi下了。
+         * 3、x86也是可以兼容armeabi平台运行的，另外需要指出的是，打出包的x86的so，总会比armeabi平台的体积更小，对于性能有洁癖的童鞋们，还是建议在打包so的时候支持x86。
+         */
         ndk {
             //设置支持的SO库架构
-            abiFilters 'armeabi-v7a', 'armeabi', 'x86'
+            abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86', 'x86_64'
         }
     }
 
