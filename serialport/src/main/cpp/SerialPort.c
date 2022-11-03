@@ -117,7 +117,7 @@ static void throwException(JNIEnv *env, const char *name, const char *msg) {
  */
 JNIEXPORT jobject JNICALL Java_android_serialport_SerialPort_open
         (JNIEnv *env, jclass thiz, jstring path, jint baudrate,
-         jint databits, jint stopbits, jint parity) {
+         jint databits, jint parity, jint stopbits) {
     int fd;
     int flags;
     speed_t speed;

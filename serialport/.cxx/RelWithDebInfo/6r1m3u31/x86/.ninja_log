@@ -1,3 +1,5 @@
 # ninja log v5
 0	706	688881750	CMakeFiles/serial_port.dir/SerialPort.c.o	5f7d2d8503652b61
 707	1373	688881751	D:/GitHubLib/boylab/Android-SerialPort-API/serialport/build/intermediates/cxx/RelWithDebInfo/6r1m3u31/obj/x86/libserial_port.so	2b3fa4b2aa64ad5c
+9	403	689075371	CMakeFiles/serial_port.dir/SerialPort.c.o	5f7d2d8503652b61
+403	1072	689075372	D:/GitHubLib/boylab/Android-SerialPort-API/serialport/build/intermediates/cxx/RelWithDebInfo/6r1m3u31/obj/x86/libserial_port.so	2b3fa4b2aa64ad5c

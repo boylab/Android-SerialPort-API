@@ -3,23 +3,23 @@ Built-By: Signflinger
 Created-By: Signflinger
 
 Name: BUNDLE-METADATA/assets.dexopt/baseline.prof
-SHA-256-Digest: kih2aV2RJ9iG9ekvWQf+dAt2h/rrMazevzc5R1XbMZQ=
+SHA-256-Digest: 2fQEj5nqtEhg9bXqDNxoU0fEihkhT8s4qMgf7qC/Dbg=
 
 Name: BUNDLE-METADATA/com.android.tools.build.debugsymbols/arm64-v8a/l
  ibserial_port.so.sym
-SHA-256-Digest: NFwweMf2j1ooB/3Sy2O6X5obRUFyRSLU0OExhxyKwKE=
+SHA-256-Digest: d//Nb+yjTL4DYYWLxvjj7fMkQzbLo2xcHyOYpxQekag=
 
 Name: BUNDLE-METADATA/com.android.tools.build.debugsymbols/armeabi-v7a
  /libserial_port.so.sym
-SHA-256-Digest: Yvug8xae7qIzmW1ntcvOoIt9xhctKa6sMwiIIHLy76c=
+SHA-256-Digest: mlT6g965zWWckRjBxMg/ag3Uy3251JQBLhe00WSBXYA=
 
 Name: BUNDLE-METADATA/com.android.tools.build.debugsymbols/x86/libseri
  al_port.so.sym
-SHA-256-Digest: gS8kIAGyiVJv681gtkAsVBMiGvU+f7xQwlTFH4rH01w=
+SHA-256-Digest: jVR88FCmSRIXCteMnuMNNqoE3AZ8NYW08QOsG/g1yns=
 
 Name: BUNDLE-METADATA/com.android.tools.build.debugsymbols/x86_64/libs
  erial_port.so.sym
-SHA-256-Digest: OPyrdM0l+DBbXF9HhXgKd1aFOXe/BQHPttfN/MHDEbw=
+SHA-256-Digest: gCuxwVK0+wOnYqu51tx0RNHWhRU6K0OkWTDG7FEwc80=
 
 Name: BUNDLE-METADATA/com.android.tools.build.gradle/app-metadata.prop
  erties
@@ -33,19 +33,19 @@ Name: BundleConfig.pb
 SHA-256-Digest: qNxXSmPqh+iN9O/UzNcQOXdSE9M6Wmd8WuPmMfIBhmQ=
 
 Name: base/dex/classes.dex
-SHA-256-Digest: GQzov7LzHMXin1xECZVStp3KLaPhDRTHPFl49kzInP4=
+SHA-256-Digest: gfxXPgw0wbjF1JNSN1Dd/rdSrghC3Dk6f/8sf2zMvzM=
 
 Name: base/lib/arm64-v8a/libserial_port.so
-SHA-256-Digest: u4ZOC1A9ecOwl+4Ki4yvUxbV1BZ8x/sMVusOxZ8xVps=
+SHA-256-Digest: oTYL/Ne+HmdMT82JLUvMky7VqBX44fJh0YCQLdzqEHw=
 
 Name: base/lib/armeabi-v7a/libserial_port.so
-SHA-256-Digest: ptJe9nEBSyQ4mbYCAQ8VzV195ebgX57dwJXvOlBAcSw=
+SHA-256-Digest: 8+3VBjdAEFzV39hqQfKRgXVLXRPNRO0QkPwQYpFH6ao=
 
 Name: base/lib/x86/libserial_port.so
-SHA-256-Digest: 4pO4wDnfvsSgEOabqvRUpEdvmEw58znqMMLKiI7jHDA=
+SHA-256-Digest: oZuUrjxduplTFTDAB6L9K9w7sq2DNK3ZgY3/yyxeFwQ=
 
 Name: base/lib/x86_64/libserial_port.so
-SHA-256-Digest: ZWLHXOin5KBDTdB33dWZaxiRqdPurB0xXZoqSwGOnh4=
+SHA-256-Digest: 8PZBRgR4oFzGx1SG/Sv/IxekNOs9jbVj/0DUZQ5KrpQ=
 
 Name: base/manifest/AndroidManifest.xml
 SHA-256-Digest: TH2w+DHzAWiXo/PMmRkrAmAUyLF9iA7edgLUP3vrz4k=

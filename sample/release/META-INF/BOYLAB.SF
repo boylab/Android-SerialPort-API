@@ -1,25 +1,25 @@
 Signature-Version: 1.0
 Created-By: Signflinger
-SHA-256-Digest-Manifest: pJkjIkPz760E15bfzewpXEwsInKnr7h/acsJyfGjsGI=
+SHA-256-Digest-Manifest: JbidskhSg/tvlINH9JbnWgmAt1IrfWyfhR94Nfgcjd4=
 
 Name: BUNDLE-METADATA/assets.dexopt/baseline.prof
-SHA-256-Digest: 0SxcHK9uCqAaQ5qZL/uyDUX1DC2vp2ZYE9jrzsYv+bc=
+SHA-256-Digest: 0ktnJ++kw4IuOUBvOPmD28ORrve6I6YO1a8cq/e4K/o=
 
 Name: BUNDLE-METADATA/com.android.tools.build.debugsymbols/arm64-v8a/l
  ibserial_port.so.sym
-SHA-256-Digest: 8SYrJJrAolR0wKHPa+d6CY1jw5oWQGMbQmS5WVybnUY=
+SHA-256-Digest: zlHRj/geUXDOF2bPlK71KYINUPMuoKIuMXGYdjtKNvs=
 
 Name: BUNDLE-METADATA/com.android.tools.build.debugsymbols/armeabi-v7a
  /libserial_port.so.sym
-SHA-256-Digest: sH7e9cW7KuuYUw7P+/4UqFfQwA7IuT0cX/h64Bz6lHk=
+SHA-256-Digest: jilf6X47gc6X/alcXQuujDrAZdLt+cYtxHwNOPNU9xY=
 
 Name: BUNDLE-METADATA/com.android.tools.build.debugsymbols/x86/libseri
  al_port.so.sym
-SHA-256-Digest: CjiNHpyspTrzoJdSI0J/AC7AwmevMTlUQ8RNPNG/vIY=
+SHA-256-Digest: mCViseCfnZyuhN3AZa9uEeeEyPrvoPxiLDEwVYEv8kM=
 
 Name: BUNDLE-METADATA/com.android.tools.build.debugsymbols/x86_64/libs
  erial_port.so.sym
-SHA-256-Digest: RFyPZGh1bGAQktaZiKiyg8x7eIn82nEY7GGv/tRnXHs=
+SHA-256-Digest: jUpxUey1Fu3ks9e4Mdk4YQ2rkjRc1I5GJpsXBfUIL/Y=
 
 Name: BUNDLE-METADATA/com.android.tools.build.gradle/app-metadata.prop
  erties
@@ -33,19 +33,19 @@ Name: BundleConfig.pb
 SHA-256-Digest: Ukfn4WwPsRJFdry7n5YwdE9ca+5irVp28Qx58kRLmm0=
 
 Name: base/dex/classes.dex
-SHA-256-Digest: pYp7vE8Wz8b4l8rPkFiZplLWZRWpceBDaK6gmaRd1fA=
+SHA-256-Digest: z8Sj0sc9dfW7Bz3cCVe/zIcocuxyivOzFAV8ezWHxJE=
 
 Name: base/lib/arm64-v8a/libserial_port.so
-SHA-256-Digest: 06Twi/n8KDbiEPRdJknOtUz1CgTsrULNAgYD/3DUxuc=
+SHA-256-Digest: HvW/hFGvkIKkhVSMwLfB/vX0LOvGz2e+JYa8oQlTXtI=
 
 Name: base/lib/armeabi-v7a/libserial_port.so
-SHA-256-Digest: 6UBPq9ej5pjksDigEjx2NAjc0JwUi3nFXNAg+SdqddU=
+SHA-256-Digest: qrpBQPNjU4v+zKOPC0jXC0KgZsRdICaq23yh9JlLMUk=
 
 Name: base/lib/x86/libserial_port.so
-SHA-256-Digest: FpJWqnXwR21ZmfhNp/OukP52bWkTpFK1nYeVmhysEQE=
+SHA-256-Digest: Z6UirDj8khmpKCePscecE5h+lUZ2bfJ0vN6mwyNEZwI=
 
 Name: base/lib/x86_64/libserial_port.so
-SHA-256-Digest: ZwBlA/eydgUSZYJALRudiMQZTr0yYI0waILB3/UtGow=
+SHA-256-Digest: ZkDI5//zYsrgbOk192n+u1IAmlTHBCmvQhY14xhTUwQ=
 
 Name: base/manifest/AndroidManifest.xml
 SHA-256-Digest: w6XNcOlqprGcJ9ob3o0bvY0g6voBYwSf1nBhL7j1S4Y=

@@ -38,13 +38,14 @@ public final class SerialPort {
 
     private File device;
     private int baudrate;
-    private int parity;
     private int dataBits;
+    private int parity;
     private int stopBits;
-    private int flags;
+    //private int flags;
 
     /**
      * Set the su binary path, the default su binary path is {@link #SU_PATH}
+     *
      * @param suPath su binary path
      */
     public static void setSuPath(@Nullable String suPath) {
@@ -61,24 +62,20 @@ public final class SerialPort {
     /**
      * 串口
      *
-     * @param device 串口设备文件
+     * @param device   串口设备文件
      * @param baudrate 波特率
      * @param dataBits 数据位；默认8,可选值为5~8
-     * @param parity 奇偶校验；0:无校验位(NONE，默认)；1:奇校验位(ODD);2:偶校验位(EVEN)
+     * @param parity   奇偶校验；0:无校验位(NONE，默认)；1:奇校验位(ODD);2:偶校验位(EVEN)
      * @param stopBits 停止位；默认1；1:1位停止位；2:2位停止位
-     * @param flags 默认0
      * @throws SecurityException
      * @throws IOException
      */
-    public SerialPort(@NonNull File device, int baudrate, int dataBits, int parity, int stopBits,
-        int flags) throws SecurityException, IOException {
-
+    public SerialPort(@NonNull File device, int baudrate, int dataBits, int parity, int stopBits) throws SecurityException, IOException {
         this.device = device;
         this.baudrate = baudrate;
         this.dataBits = dataBits;
         this.parity = parity;
         this.stopBits = stopBits;
-        this.flags = flags;
 
         /* Check access permission */
         if (!device.canRead() || !device.canWrite()) {
@@ -109,30 +106,14 @@ public final class SerialPort {
     /**
      * 串口(默认8位数据位，1位停止位)
      *
-     * @param device 串口设备文件
+     * @param device   串口设备文件
      * @param baudrate 波特率
-     * @param parity 奇偶校验；0:无校验位(NONE，默认)；1:奇校验位(ODD);2:偶校验位(EVEN)
+     * @param parity   奇偶校验；0:无校验位(NONE，默认)；1:奇校验位(ODD);2:偶校验位(EVEN)
      * @throws SecurityException
      * @throws IOException
      */
     public SerialPort(@NonNull File device, int baudrate, int parity) throws SecurityException, IOException {
-        this(device, baudrate, 8, parity, 1, 0);
-    }
-
-    /**
-     * 串口
-     *
-     * @param device 串口设备文件
-     * @param baudrate 波特率
-     * @param dataBits 数据位；默认8,可选值为5~8
-     * @param parity 奇偶校验；0:无校验位(NONE，默认)；1:奇校验位(ODD);2:偶校验位(EVEN)
-     * @param stopBits 停止位；默认1；1:1位停止位；2:2位停止位
-     * @throws SecurityException
-     * @throws IOException
-     */
-    public SerialPort(@NonNull File device, int baudrate, int dataBits, int parity, int stopBits)
-        throws SecurityException, IOException {
-        this(device, baudrate, dataBits, parity, stopBits, 0);
+        this(device, baudrate, 8, parity, 1);
     }
 
     // Getters and setters
@@ -146,34 +127,40 @@ public final class SerialPort {
         return mFileOutputStream;
     }
 
-    /** 串口设备文件 */
+    /**
+     * 串口设备文件
+     */
     @NonNull
     public File getDevice() {
         return device;
     }
 
-    /** 波特率 */
+    /**
+     * 波特率
+     */
     public int getBaudrate() {
         return baudrate;
     }
 
-    /** 数据位；默认8,可选值为5~8 */
+    /**
+     * 数据位；默认8,可选值为5~8
+     */
     public int getDataBits() {
         return dataBits;
     }
 
-    /** 奇偶校验；0:无校验位(NONE，默认)；1:奇校验位(ODD);2:偶校验位(EVEN) */
+    /**
+     * 奇偶校验；0:无校验位(NONE，默认)；1:奇校验位(ODD);2:偶校验位(EVEN)
+     */
     public int getParity() {
         return parity;
     }
 
-    /** 停止位；默认1；1:1位停止位；2:2位停止位 */
+    /**
+     * 停止位；默认1；1:1位停止位；2:2位停止位
+     */
     public int getStopBits() {
         return stopBits;
-    }
-
-    public int getFlags() {
-        return flags;
     }
 
     // JNI
@@ -181,7 +168,9 @@ public final class SerialPort {
 
     public native void close();
 
-    /** 关闭流和串口，已经try-catch */
+    /**
+     * 关闭流和串口，已经try-catch
+     */
     public void tryClose() {
         try {
             mFileInputStream.close();
